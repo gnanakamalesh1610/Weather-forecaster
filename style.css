@@ -1,0 +1,172 @@
+ body
+ {
+  color:white;
+  font-weight: 2000;
+  font-family: Calibri;
+ }
+ .main
+ {
+    display: grid;
+    height: 700px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px ;
+    /*row-gap: 10px;
+    column-gap: 10px;*/
+    justify-content: center;
+    border-radius: 100px;
+  }
+ .items
+ {
+    background-color:#1b1a55dc;
+  }
+ .i1
+ {
+    grid-area:1/1/2/49;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+ }
+ .i2
+ {
+   grid-area: 2/1/7/13;
+ }
+
+ .i3
+ {
+   grid-area:2/13/7/49;
+ }
+ .i4
+ {
+   grid-area: 7/1/7/49; 
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+
+ }
+ /* box 1 */
+ .i1 .input-tag
+ {
+  margin-top: 27px;
+ }
+ .i1 .input-name
+ {
+   color:#CAA6A6;
+   width: 500px;
+   height: 43px;
+   border-radius: 5px;
+   border:0px;
+   outline: 0px;
+   margin-left: 90px;
+   margin-right: 30px;
+   font-size: 1.3rem;
+   padding: 5px;
+
+ }
+ .input-tag input::placeholder 
+ {
+   color: rgb(14, 13, 13);
+   font-size: 1rem;
+ }
+ .i1 .input-btn
+ {
+   height: 45px;
+   border-radius: 5px;
+   width: 70px;
+   border: 0px;
+   outline: 0px;
+   margin-right: 40px;
+ }
+ /* box1 */
+
+/* box 2*/
+    
+.i2 .text-content  h3
+{
+  text-align: center;
+  font-size: 3rem;
+  height: 10px;
+  margin-top: 1px;
+
+}
+.i2 .text-content h4
+{
+   text-align: center;
+   font-size: 1.1rem;
+}
+.i2 .text-content img
+{
+  margin-left: 50px;
+}
+
+
+
+ /* box 2 */
+
+ /* box 3 */
+
+
+ .temp-info .content
+{
+    display: flex;
+    justify-content:space-between;
+    padding:0.6rem 0;
+    margin-left:30px;
+    margin-right: 30px;
+    height: 40px;
+ }
+ .i3 .temp-info .content .placeName 
+ {
+  font-size: 2.5rem;
+   margin-left: 70px;
+   margin-top: 0px;
+   font-weight: 2000;
+ }
+ .temp-info .content .title
+ {
+  font-weight:500;
+  font-size: 1.7rem;
+
+ }
+ .temp-info .content .value{
+ font-weight: 500;  
+ font-size: 1.5rem;
+ }
+/* box 3*/
+
+/* box 4*/
+ .list-content
+ {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+ }
+ .list-content .list-name
+ {
+  height: 5px;
+  margin-top: 2px;
+  margin-left: 10px;
+ }
+ .list-content .list-value
+ {
+  margin-left:29px;
+  height: 2px;
+ }
+ .i4 .list-content .list
+ {
+  transition:all 0.2s ease-in;
+
+ }
+ .i4 .list-content .list:hover
+ {
+
+    transform:scale(1.1);
+    color: white;
+    background-color:#7077A1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    
+
+}
+
+
+
+/*box 4*/
