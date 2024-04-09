@@ -86,7 +86,7 @@ btn.addEventListener("click",(event)=>
    console.log(data2);
    const timestamps=data2.dt;
    console.log(timestamps);
-   const date2=new Date(1709964000*1000);
+   const date2=new Date(timestamps*1000);
    
    const day2=date2.toLocaleString('en-US', { weekday: 'long' });
    console.log(day2);
